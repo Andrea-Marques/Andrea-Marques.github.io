@@ -1,0 +1,235 @@
+body 
+{
+	font-family : Verdana;
+	background-color: #191919;
+}
+
+.col-auto 
+{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.container
+{
+	max-width: 1190px;
+}
+
+.row
+{
+	padding: 0px 0px 0px 0px;
+}
+.photo
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 310px;
+	width: 385px;
+	background-color: #FECA07;
+	text-align: center;
+	border-left: 2px groove grey;
+}
+
+.titre
+{
+	background-color: white;
+}
+
+.profession
+{
+	padding-left: 8%;
+	position: relative;
+	color: #404040;
+	font-family: Arial, serif;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.profession:after
+{
+	width: 40px;
+	height: 3px;
+	background-color: #FECA07;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 8%;
+}
+
+.ligne
+{
+	line-height: 50px;
+}
+
+.bordure
+{
+	margin-left: 8%;
+	width: 40px;
+	border-width: 2px;
+	border-color: #FECA07;
+}
+
+.separation
+{
+	background-color: white;
+	vertical-align: baseline;
+}
+
+.aside /*intitulés aside*/
+{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5em;
+	color:#FECA07;
+	line-height: 50px;
+	border-left: 2px groove grey;
+	background-color: #404040;
+	}
+
+.aside2 /*bloc aside bleus*/
+{
+	background-color: #FECA07;
+	border-left: 2px groove grey;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.col-1
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.col-2
+{
+	background-color: white;
+	line-height: 30px;
+}
+
+.col-3
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.col-8
+{
+	background-color: white;
+}
+
+.col-12
+{
+	line-height: 4px;
+}
+
+.intitulé
+{
+	background-color: white;
+	line-height: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.loisirs
+{
+	color: #404040;
+	padding-left: 17%;
+	padding-top: 25px;
+}
+
+.dates
+{
+	margin-top: 0px;
+	font-size: 0.8em;
+	color: #323232;
+	font-weight: bold;
+}
+
+.far /*icone de puce actuelle Font Awesome*/
+{
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.fa-circle /*icone de puce Font Awesome*/
+{
+	font-size: 10px;
+	padding-left: 15px;
+}
+
+.white
+{
+	background-color: white;
+}
+
+.reco
+{
+	font-size: 1.3em;
+}
+
+i /*scripts font awesome*/
+{
+	font-size: 30px;
+	color: #FECA07;
+	line-height: 30px
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+strong
+{
+	color: #FECA07;
+}
+
+h1
+{
+	padding-top: 100px;
+	padding-left: 8%;
+	font-family: 'Segoe UI Light', serif;
+	font-size: 61px; 
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3
+{
+	margin-top: 15px;
+	color: #323232;
+	font-size: 22px;
+}
+
+
+
+hr
+{
+	border-color: #FECA07; 
+	border-width: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+p
+{
+	line-height: 20px;
+	font-size: 0.8em;
+	color: #323232;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-bottom: 0px;
+}
+
+mark
+{
+	font-family: "Trebuchet MS", serif;
+	background-color: white;
+	font-size: 18px;
+	padding-left: 0px;
+	color: #323232;
+}
