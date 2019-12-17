@@ -56,11 +56,16 @@ img
 	vertical-align: middle;
 }
 
-p
+p, a
 {
 	font-family: 'Stylish', serif;
 	font-size: 17px;
 	line-height: 22px;
+}
+
+a
+{
+	color: #8389e9;
 }
 
 strong
