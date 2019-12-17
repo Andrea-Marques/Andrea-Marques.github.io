@@ -1,420 +1,260 @@
-body 
+/*Fonts*/
+@font-face
 {
-	font-family : Verdana;
-	background-color: #191919;
+	font-family: 'Stylish';
+	src:url('font/Stylish.ttf') format('truetype');
 }
 
 @font-face
 {
-	font-family: Segoeuil;
-	src:url('segoeuil.ttf') format('truetype');
+	font-family: 'Justanotherhand';
+	src:url('font/justanotherhand.ttf') format('truetype');
 }
 
-.col-auto 
-{
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  width: auto;
-  max-width: none;
-}
-
-.container
-{
-	max-width: 1190px;
-}
-
-.row
-{
-	padding: 0px 0px 0px 0px;
-}
-
-.photo
-{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	line-height: 310px;
-	width: 385px;
-	background-color: #FECA07;
-	text-align: center;
-	border-left: 2px groove grey;
-}
-
-.titre
-{
-	background-color: white;
-	padding-bottom: 25px;
-	text-align: center;
-}
-
-.profession
-{
-	
-	position: relative;
-	color: #404040;
-	font-family: Arial, serif;
-	font-size: 26px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.bordure
-{
-	margin-left: 8%;
-	width: 40px;
-	border-width: 2px;
-	border-color: #FECA07;
-}
-
-.separation
-{
-	background-color: white;
-	vertical-align: baseline;
-	line-height: 4px;
-}
-
-.aside1 /*intitulés aside*/
-{
-	text-align: center;
-	color: #FECA07;
-	border-left: 2px solid rgba(250,250,250,0.3);
-	background-color: #404040;
-	padding-top: 10px;
-}
-
-.aside2 /*bloc aside jaune*/
-{
-	background-color: #FECA07;
-	font-size: 15px;
-	border-left: 2px solid rgba(250,250,250,0.3);
-	padding-top: 25px;
-	padding-bottom: 140px;
-	text-align: left;
-}
-
-.cal
-{
-	vertical-align: 7px;
-}
-
-.col-1
-{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: white;
-}
-
-.col-2
-{
-	background-color: white;
-	line-height: 30px;
-}
-
-.col-4
-{
-	padding-top: 10px;
-}
-
-.col-3
-{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: white;
-}
-
-.col
-{
-	background-color: white;
-}
-
-.intitulé
-{
-	background-color: white;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-
-.dates
-	{
-		color: #FECA07;
-		font-size: 0.8em;
-		text-shadow: -1px -1px 0 #5a442d,  
-    				 1px -1px 0 #5a442d,
-    				 -1px 1px 0 #5a442d,
-    				 1px 1px 0 #5a442d;
-
-	}
-
-.loisirs
-{
-	color: #404040;
-	padding-top: 25px;
-	margin-right: 10%;
-}
-
-.fa-book
-{
-	margin-left: 20%;
-}
-
-.far /*icone de puce actuelle Font Awesome*/
-{
-	font-size: 15px;
-	padding-left: 15px;
-}
-
-.fa-circle /*icone de puce Font Awesome*/
-{
-	font-size: 10px;
-	padding-left: 15px;
-}
-
-.white
-{
-	background-color: white;
-}
-
-.reco
-{
-	font-size: 1.3em;
-}
-
-
-i /*scripts font awesome*/
-{
-	font-size: 30px;
-	color: #FECA07;
-	line-height: 30px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	margin-right: 50px;
-}
-
-.prenom
-{
-	color: #FECA07;
-}
-
+/*Balises Génériques*/
 h1
 {
-	font-family: 'Segoeuil', serif;
-	font-size: 61px; 
+	font-family: 'Justanotherhand', serif;
+	font-size: 65px;
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    padding-top: 35px;
 }
 
 h2
 {
-	font-size: 1.5em;
-	font-weight: bold;
+	font-family: 'Justanotherhand', serif;
 }
 
 h3
 {
-	margin-top: 15px;
-	color: #323232;
-	font-size: 22px;
+	font-family: 'Justanotherhand', serif;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
 }
 
-
-
-hr
+article i, aside i
 {
-	border-color: #FECA07; 
-	border-width: 2px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-right: 25px;
+}
+
+aside i
+{
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+img
+{
+	max-height: 150px;
+	width: auto;
+	vertical-align: middle;
 }
 
 p
 {
-	line-height: 20px;
-	font-size: 0.8em;
-	color: #323232;
-	padding-bottom: 8px;
-	padding-top: 8px;
-	margin-bottom: 0px;
+	font-family: 'Stylish', serif;
+	font-size: 17px;
+	line-height: 22px;
 }
 
-mark
+strong
 {
-	font-family: "Trebuchet MS", serif;
-	background-color: white;
-	font-size: 18px;
-	padding-left: 0px;
-	color: #323232;
+	font-family: 'Stylish', serif;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
+footer i
+{
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+footer p
+{
+	margin-bottom: 5px;
+}
+
+header p
+{
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+aside
+{
+	text-align: center;
+}
+
+section .fa-dot-circle, section .fa-circle
+{
+	padding-left: 45px;
+	margin-top: 15px;
+}
+
+/*Attributs Spécifiques*/
+.head
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contact
+{
+	padding-top: 25px;
+}
+
+.formations, .recommandation, .biopic2
+{
+	background-color: #e2e3ff;
+}
+
+.container
+{
+	padding: 20px 35px;
+	margin-top: 15px;
+}
+
+.loisirs
+{
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+.adfooter
+{
+	margin-top: 20px;
+}
+
+.niveaux
+{
+	margin-bottom: 20px;
+}
+
+.grdtitre
+{
+	text-align: center;
+}
+
+/*Media Queries*/
 /*smartphone*/
 @media (min-width: 576px) 
 {
-  .container 
-  {
-    width: 540px;
-  }
-   h1
-  {
-  	text-align: center;
-  }
-  .profession
-  {
-  	text-align: center;
-  }
-  .cal
-  {
-	vertical-align: 7px;
+	.container 
+  	{
+    	width: 540px;
+  	}
 }
 
 /*tablette*/
 @media (min-width: 768px) 
 {
-  .container 
-  {
-    width: 720px;
-  }
-  .dates
+  	h1
 	{
-		color: #323232;
-		font-size: 0.8em;
-		font-weight: bold;
-		text-shadow: none;
+		font-size: 50px;
 	}
-  h1
-  {
-  	padding-top: 60px;
-  	padding-left: 8%;
-  	text-align: left;
-  }
-  h2
-  {
-	  font-size: 1.3em;
-  }
-  .profession
-  {
-  	padding-left: 8%;
-  	text-align: left;
-  }
-  .profession:after
+	h2
 	{
-		width: 40px;
-		height: 3px;
-		background-color: #FECA07;
-		content: "";
-		position: absolute;
-		bottom: 0;
-		left: 8%;
+		font-size: 30px;
 	}
-	.cal
+	h3
 	{
-	font-size: 25px;
-	vertical-align: 8px;
+		font-size: 25px;
 	}
-		.aside2
+	p
 	{
-		padding-bottom: 20px;
+		font-size: 15px;
 	}
-	.marge
+	img
 	{
-		padding-bottom: 160px;
+		padding-left: 25px;
+		max-height: 192px;
+		width: auto;
 	}
-	.marge2
+	.grdtitre
 	{
-		padding-bottom: 60px;
+		text-align: left;
 	}
+	.container 
+  	{
+    	width: 720px;
+  	}
 }
 
 /*grand écran*/
 @media (min-width: 992px) 
 {
-  .container 
+	h1
+	{
+		font-size: 65px;
+	}
+	h2
+	{
+		font-size: 35px;
+	}
+	h3
+	{
+		font-size: 30px;
+	}
+	p
+	{
+		font-size: 17px;
+	}
+	.container 
   	{
     	width: 960px;
   	}
-  	.dates
+  	.biopic
 	{
-		color: #323232;
-		font-size: 0.8em;
-		font-weight: bold;
-		text-shadow: none;
+		padding-top: 80px;
+		position: relative;
 	}
-   h1
-  	{
-  		padding-left: 8%;
-  		padding-top: 80px;
-  		text-align: left;
-  	}
-  	.profession
-  {
-  	padding-left: 8%;
-  	text-align: left;
-  }
-  .profession:after
+	.biopic:before
 	{
-		width: 40px;
-		height: 3px;
-		background-color: #FECA07;
 		content: "";
+		background-color: #646ad7;
 		position: absolute;
-		bottom: 0;
-		left: 8%;
+		width: 2px;
+		height: 460px;
+		left: -10px;
+		top: 45px;
 	}
-	.cal
+	.divers
 	{
-		vertical-align: 8px;
+		padding-top: 40px;
+		position: relative;
 	}
-	.intitulé
+	.divers:before
 	{
-		line-height: 60px;
+		content: "";
+		background-color: #646ad7;
+		position: absolute;
+		width: 2px;
+		height: 320px;
+		left: -10px;
+		top: 15px;
 	}
-	.marge
+	.loisirs
 	{
-		padding-bottom: 230px;
+		padding-left: 15px;
+		padding-right: 0px;
+		font-size: 35px;
 	}
 }
 
 /* Très grand écran */
 @media (min-width: 1200px) 
 {
-  .container 
+	.container 
   	{
-    	max-width: 1140px;
+    	max-width: 1400px;
   	}
-  	.dates
-	{
-		color: #323232;
-		font-size: 0.8em;
-		font-weight: bold;
-		text-shadow: none;
-	}
-   h1
-  	{
-  		padding-left: 8%;
-  		padding-top: 100px;
-  		text-align: left;
-  	}
-  	.profession
-  {
-  	padding-left: 8%;
-  	text-align: left;
-  }
-  .profession:after
-	{
-		width: 40px;
-		height: 3px;
-		background-color: #FECA07;
-		content: "";
-		position: absolute;
-		bottom: 0;
-		left: 8%;
-	}
-	.cal
-	{
-		vertical-align: 8px;
-	}
-	.intitulé
-	{
-		line-height: 60px;
-	}
-	.marge
-	{
-		padding-bottom: 230px;
-	}
-	}
+}
