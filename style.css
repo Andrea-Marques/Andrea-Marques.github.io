@@ -1,0 +1,317 @@
+/*Fonts*/
+@font-face
+{
+	font-family: 'Stylish';
+	src:url('font/Stylish.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Justanotherhand';
+	src:url('font/justanotherhand.ttf') format('truetype');
+}
+
+/*Balises Génériques*/
+h1
+{
+	font-family: 'Justanotherhand', serif;
+	font-size: 65px;
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    padding-top: 35px;
+}
+
+h2
+{
+	font-family: 'Justanotherhand', serif;
+}
+
+h3
+{
+	font-family: 'Justanotherhand', serif;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+img
+{
+	max-height: 150px;
+	width: auto;
+	vertical-align: middle;
+}
+
+p, a
+{
+	font-family: 'Stylish', serif;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+a
+{
+	color: #8389e9;
+}
+
+strong
+{
+	font-family: 'Stylish', serif;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+footer i
+{
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+footer p
+{
+	margin-bottom: 5px;
+}
+
+header p
+{
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+aside
+{
+	text-align: center;
+}
+
+aside i
+{
+	font-size: 15px;
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+	padding-top: 10px;
+}
+
+aside p
+{
+	margin-bottom: 5px;
+}
+
+article i
+{
+
+    margin-right: 25px;
+}
+
+
+article .fa-dot-circle, article .fa-circle
+{
+	padding-left: 45px;
+	margin-top: 15px;
+}
+
+/*Attributs Spécifiques*/
+.head
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contact
+{
+	padding-top: 25px;
+}
+
+.formations, .recommandation, .biopic2
+{
+	background-color: #e2e3ff;
+}
+
+.recommandation
+{
+	padding-top: 15px;
+}
+
+.container
+{
+	padding: 20px 35px;
+	margin-top: 15px;
+}
+
+.loisirs
+{
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+.adfooter
+{
+	margin-top: 20px;
+}
+
+.niveaux
+{
+	margin-bottom: 20px;
+}
+
+.grdtitre
+{
+	text-align: center;
+}
+
+.now
+{
+	font-weight: bold;
+}
+
+.leisure
+{
+	text-decoration: underline;
+}
+
+.soft
+{
+	margin-bottom: 30px;
+}
+
+/*Media Queries*/
+/*smartphone*/
+@media (min-width: 576px) 
+{
+	.container 
+  	{
+    	width: 540px;
+  	}
+}
+
+/*tablette*/
+@media (min-width: 768px) 
+{
+  	h1
+	{
+		font-size: 50px;
+	}
+	h2
+	{
+		font-size: 30px;
+	}
+	h3
+	{
+		font-size: 25px;
+	}
+	p
+	{
+		font-size: 15px;
+	}
+	img
+	{
+		padding-left: 25px;
+		max-height: 192px;
+		width: auto;
+	}
+	.grdtitre
+	{
+		text-align: left;
+	}
+	.container 
+  	{
+    	width: 720px;
+  	}
+}
+
+/*grand écran*/
+@media (min-width: 992px) 
+{
+	h1
+	{
+		font-size: 65px;
+	}
+	h2
+	{
+		font-size: 35px;
+	}
+	h3
+	{
+		font-size: 30px;
+	}
+	aside h2
+	{
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	p
+	{
+		font-size: 17px;
+	}
+	.divers2 h2
+	{
+		margin-top: 15px;
+	}
+	.container 
+  	{
+    	width: 960px;
+  	}
+  	.biopic
+	{
+		padding-top: 30px;
+		position: relative;
+	}
+	.biopic:before
+	{
+		content: "";
+		background-color: #646ad7;
+		position: absolute;
+		width: 2px;
+		height: 650px;
+		left: -10px;
+		top: 45px;
+	}
+	.divers
+	{
+		padding-top: 0px;
+		position: relative;
+	}
+	.divers:before
+	{
+		content: "";
+		background-color: #646ad7;
+		position: absolute;
+		width: 2px;
+		height: 320px;
+		left: -10px;
+		top: 15px;
+	}
+	.divers2
+	{
+		padding-top: 0px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+	.divers2:before
+	{
+		content: "";
+		background-color: #646ad7;
+		position: absolute;
+		width: 2px;
+		height: 260px;
+		left: -5px;
+		top: 20px;
+	}
+	.loisirs
+	{
+		padding-left: 15px;
+		padding-right: 0px;
+		font-size: 35px;
+	}
+}
+
+/* Très grand écran */
+@media (min-width: 1200px) 
+{
+	.container 
+  	{
+    	max-width: 1400px;
+  	}
+}
