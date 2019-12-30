@@ -35,20 +35,6 @@ h3
 	margin-top: 10px;
 }
 
-article i, aside i
-{
-	background: -webkit-linear-gradient(#8389e9, #000000);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    margin-right: 25px;
-}
-
-aside i
-{
-	font-size: 25px;
-	padding-top: 10px;
-}
-
 img
 {
 	max-height: 150px;
@@ -99,7 +85,28 @@ aside
 	text-align: center;
 }
 
-section .fa-dot-circle, section .fa-circle
+aside i
+{
+	font-size: 15px;
+	background: -webkit-linear-gradient(#8389e9, #000000);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+	padding-top: 10px;
+}
+
+aside p
+{
+	margin-bottom: 5px;
+}
+
+article i
+{
+
+    margin-right: 25px;
+}
+
+
+article .fa-dot-circle, article .fa-circle
 {
 	padding-left: 45px;
 	margin-top: 15px;
@@ -120,6 +127,11 @@ section .fa-dot-circle, section .fa-circle
 .formations, .recommandation, .biopic2
 {
 	background-color: #e2e3ff;
+}
+
+.recommandation
+{
+	padding-top: 15px;
 }
 
 .container
@@ -147,6 +159,21 @@ section .fa-dot-circle, section .fa-circle
 .grdtitre
 {
 	text-align: center;
+}
+
+.now
+{
+	font-weight: bold;
+}
+
+.leisure
+{
+	text-decoration: underline;
+}
+
+.soft
+{
+	margin-bottom: 30px;
 }
 
 /*Media Queries*/
@@ -209,9 +236,18 @@ section .fa-dot-circle, section .fa-circle
 	{
 		font-size: 30px;
 	}
+	aside h2
+	{
+		font-size: 30px;
+		margin-top: 30px;
+	}
 	p
 	{
 		font-size: 17px;
+	}
+	.divers2 h2
+	{
+		margin-top: 15px;
 	}
 	.container 
   	{
@@ -219,7 +255,7 @@ section .fa-dot-circle, section .fa-circle
   	}
   	.biopic
 	{
-		padding-top: 80px;
+		padding-top: 30px;
 		position: relative;
 	}
 	.biopic:before
@@ -228,13 +264,13 @@ section .fa-dot-circle, section .fa-circle
 		background-color: #646ad7;
 		position: absolute;
 		width: 2px;
-		height: 460px;
+		height: 650px;
 		left: -10px;
 		top: 45px;
 	}
 	.divers
 	{
-		padding-top: 40px;
+		padding-top: 0px;
 		position: relative;
 	}
 	.divers:before
@@ -246,6 +282,22 @@ section .fa-dot-circle, section .fa-circle
 		height: 320px;
 		left: -10px;
 		top: 15px;
+	}
+	.divers2
+	{
+		padding-top: 0px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+	.divers2:before
+	{
+		content: "";
+		background-color: #646ad7;
+		position: absolute;
+		width: 2px;
+		height: 260px;
+		left: -5px;
+		top: 20px;
 	}
 	.loisirs
 	{
